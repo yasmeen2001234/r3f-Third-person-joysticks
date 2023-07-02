@@ -23,6 +23,7 @@ const Index: NextPage = ({}) => {
 
   return (
     <>
+    
       <HomeWithoutSSR  />
       
     </>

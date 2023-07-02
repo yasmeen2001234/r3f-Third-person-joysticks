@@ -1,3 +1,5 @@
+
+
 html,
 body,
 #__next,
@@ -6,7 +8,6 @@ body,
   height: 100%;
   width: 100%;
 }
-
 
 
 html,
@@ -30,15 +31,17 @@ body {
 }
 
 #mobileInterface {
-  position: fixed;
+  position: fixed ;
   width: calc(100% - 20px);
   height: 50vh;
   pointer-events: none;
-  z-index: 11;
-  bottom: 100px;
-  left: 130px;
+  z-index: 50;
+  top: 25px;
+  left: 80px;
   touch-action: manipulation;
 }
+
+
 
 #joystickWrapper0 {
   
@@ -60,7 +63,7 @@ body {
 }
 
 #joystickWrapper1 > div > .back {
-  background: linear-gradient(270.9deg, rgba(9, 247, 255, 0.1) 156.8%, rgba(255, 163, 78, 0.1) 259.67%) !important;
+  background: linear-gradient(270.9deg, rgba(9, 46, 255, 0.1) 156.8%, rgba(255, 164, 78, 0) 259.67%) !important;
 }
 
 #joystickWrapper1 {
@@ -70,26 +73,43 @@ body {
   background-size: cover;
 
   pointer-events: auto;
-  display: block;
-  position: absolute;
-  bottom: 0;
-  left: 0;
   background-color: transparent;
-  width: 120px;
-  height: 120px;
   z-index: 12;
   touch-action: manipulation;
   /* background-color: rgba(red, 0.2); */
 }
 
 
+@media screen and (orientation: portrait) {
+  #joystickWrapper1 {
+    position: relative;
+    display: flex;
+    width: 120px;
+    height: 120px;
+    bottom: 0%;
+    left: -15%;
+  }
+}
 
-.noSelect {
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  -webkit-tap-highlight-color: transparent;
+@media screen and (orientation: landscape) {
+  #joystickWrapper1 {
+    position: relative;
+    display: flex;
+    width: 85px;
+    height: 85px;
+    bottom: 280%;
+    left: -10%;
+  }
+}
+
+
+@media screen and (min-width: 600px) and (min-height: 600px){
+  #joystickWrapper1 {
+    position: relative;
+    display: flex;
+    width: 85px;
+    height: 85px;
+    bottom: 10%;
+    left: 0%;
+  }
 }
