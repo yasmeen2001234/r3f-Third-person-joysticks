@@ -1,3 +1,7 @@
+This project include WASD and Joysticks movement with react three fiber 
+
+
+
 After cloning the repo run the following commands: 
 
 npm install
