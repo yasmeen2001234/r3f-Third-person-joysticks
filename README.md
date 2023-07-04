@@ -1,5 +1,11 @@
 This project include WASD and Joysticks movement with react three fiber
 
+The project uses the library
+https://www.npmjs.com/package/@bonuz/react-three-third-person
+
+Which was edited and updated from the original library 
+https://github.com/mannynotfound/react-three-third-person
+
 
 After cloning the repo run the following commands:
 
@@ -12,8 +18,3 @@ npm run dev
 https://github.com/yasmeen2001234/r3f-Third-person-joysticks/assets/83319374/686d83f4-5b82-4f9c-9224-94347678b701
 
 
-The project uses the library
-https://www.npmjs.com/package/@bonuz/react-three-third-person
-
-Which was edited and updated from the original library 
-https://github.com/mannynotfound/react-three-third-person
