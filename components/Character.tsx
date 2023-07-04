@@ -1,6 +1,6 @@
 import React from 'react'
 import { useFBX } from '@react-three/drei'
-import ThirdPersonCharacterControls from 'react-three-third-person'
+import ThirdPersonCharacterControls from '@bonuz/react-three-third-person'
 
 const PATH = './Animation_model/'
 

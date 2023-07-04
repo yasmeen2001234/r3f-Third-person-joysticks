@@ -2,7 +2,7 @@
 import type { AppProps } from 'next/app'
 import React, { useRef, Component } from 'react'
 import '../styles/Joystick.css'
-
+import '../styles/globals.css'
 // function MyApp({ Component, pageProps }: AppProps) {
 //   return <Component {...pageProps} />
 // }
