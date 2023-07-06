@@ -17,6 +17,7 @@ import { OrbitControls, Stats, } from '@react-three/drei'
 import Character from './Character'
 
 import { Floor } from './Floor'
+import Grass from './Grass/Frustum_culling_grass1'
 
 const Game = () => {
   const [state, setState] = useState({ x: 0, y: 0 })
@@ -64,6 +65,8 @@ const Game = () => {
           <meshStandardMaterial color='gray' />
         </mesh>
 
+        <Grass camera={camera_} />
+
         <Sky sunPosition={[500, 50, 1000]} turbidity={0.1} inclination={0.5} azimuth={0.25} />
         <Physics gravity={[0, -50, 0]}>
          
@@ -71,7 +74,7 @@ const Game = () => {
         
           <Suspense fallback={null}>
             {character}
-            {isMobile && <OrbitControls camera={camera_} />}
+            {isMobile && <OrbitControls />}
           </Suspense>
         </Physics>
       </Canvas>
