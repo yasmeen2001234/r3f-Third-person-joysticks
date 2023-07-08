@@ -18,6 +18,8 @@ Frustum culling is a technique used in computer graphics to improve performance 
 
 This video shows that whenever the grass is inside the player's view, it is rendered, and otherwise, it is removed from the scene.
 
+To make it more clear , I added console logs 
+
 https://github.com/yasmeen2001234/r3f-Third-person-joysticks/assets/83319374/3d47cbe4-8128-442f-ba02-1322b3dd5c61
 
 
