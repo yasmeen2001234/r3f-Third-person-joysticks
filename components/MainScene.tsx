@@ -74,7 +74,7 @@ const Game = () => {
         
           <Suspense fallback={null}>
             {character}
-            {isMobile && <OrbitControls />}
+            {isMobile }
           </Suspense>
         </Physics>
       </Canvas>

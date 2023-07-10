@@ -6,7 +6,6 @@ https://www.npmjs.com/package/@bonuz/react-three-third-person
 Which was edited and updated from the original library 
 https://github.com/mannynotfound/react-three-third-person
 
-
 After cloning the repo run the following commands:
 
 - npm install or npm install --force ( incase you faced dependency error )
