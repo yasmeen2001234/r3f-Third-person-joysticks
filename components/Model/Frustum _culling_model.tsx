@@ -43,10 +43,10 @@ export default function Frustum_culling_ocean({ camera }: Props) {
 
     if (!isBoxOutsideFrustum) {
       setVisible(true)
-      console.log('Added')
+      console.log(' Bird Added')
     } else {
       setVisible(false)
-      console.log('Removed')
+      console.log('Bird Removed')
     }
   })
 
@@ -55,7 +55,7 @@ export default function Frustum_culling_ocean({ camera }: Props) {
       {visible ? <Grass /> : null}
       <instancedMesh ref={mesh} scale={[1, 1, 1]} args={[null, null, 1000]} position={[19, 0, 19]}>
         <boxBufferGeometry args={[2, 1, 2]} />
-        <meshStandardMaterial attach='material' color={'white'} opacity={0} transparent={false} />
+        <meshStandardMaterial attach='material' color={'white'} opacity={0} transparent={true} />
       </instancedMesh>
     </>
   )

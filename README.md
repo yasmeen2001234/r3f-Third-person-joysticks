@@ -18,3 +18,6 @@ Frustum culling is a technique used in computer graphics to improve performance 
 This video shows that whenever the bird is inside the player's view, it is rendered, and otherwise, it is removed from the scene.
 
 To make it more clear , I added console logs
+
+
+https://github.com/yasmeen2001234/r3f-Third-person-joysticks/assets/83319374/624893ea-da8c-4ecc-ad47-2befe922ac45
