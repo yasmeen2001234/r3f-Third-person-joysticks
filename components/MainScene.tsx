@@ -17,7 +17,7 @@ import { OrbitControls, Stats, } from '@react-three/drei'
 import Character from './Character'
 
 import { Floor } from './Floor'
-import Grass from './Grass/Frustum _culling_grass1'
+import Grass from './Grass/Frustum _culling_model'
 
 const Game = () => {
   const [state, setState] = useState({ x: 0, y: 0 })
