@@ -27,8 +27,7 @@
     "react-native": "^0.71.2",
     "three": "^0.140.0",
     "three-stdlib": "^2.17.3",
-    "three.meshline": "^1.4.0",
-    "yarn": "^1.22.19"
+    "three.meshline": "^1.4.0"
   },
   "devDependencies": {
     "@next/bundle-analyzer": "^12.3.1",
